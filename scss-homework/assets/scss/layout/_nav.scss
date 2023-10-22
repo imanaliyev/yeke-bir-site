@@ -1,0 +1,117 @@
+header{
+    background-color:#007bff;
+    height: 700px;
+    position: relative;
+    color: white;
+    .text{
+        position: absolute;
+        width: 665px;
+        height: 262px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        bottom: 30%;
+        left: 18%;
+        color: white;
+        h2{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        .buton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 210px;
+            height: 52px;
+            background-color:#00D363 ;
+            border-radius: 5px;
+        }
+        
+    }
+    .photo{
+        width: 520px;
+        height: 383px;
+        position: absolute;
+        bottom: 0px;
+        right: 10%;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        height: 90.5px;
+        width: 100vw;
+        top: 0px;
+        left: 0px;
+        position: fixed;
+        background-color: #007bff;
+        z-index: 1;
+        .logoarea{
+            width: 322px;
+            display: flex;
+            height: 62px;
+            gap: 10px;
+            .logo{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                display: grid;
+                place-items: center;
+                color: white;
+                font-size: 24px;
+                border: 2px solid #00D363;
+                i{
+                    width: 50px;
+                    height: 50px;
+                    background-color:#00D363;
+                    display: grid;
+                    place-items: center;
+                    border-radius: 50%;
+                }
+            }
+            .jobboard{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+                span{
+                    color: rgb(213, 213, 213);
+                }
+                
+            }
+        }
+        .navbar{
+            width: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            i{
+                font-size: 12px;
+            }
+        }
+        .login{
+            display: flex;
+            width: 300px;
+            align-items: center;
+            justify-content: center;
+            gap: 10px   ;
+            p{
+                font-size: 14px;
+            }
+            .post{
+                width: 138px;
+                height: 50px;
+                background-color:#00D363;
+                border-radius: 5px;
+                display: grid;
+                place-items: center;
+                font-weight: 600;
+            }
+        }
+    }
+}

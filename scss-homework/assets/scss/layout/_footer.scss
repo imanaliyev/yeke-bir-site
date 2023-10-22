@@ -1,0 +1,99 @@
+footer {
+    min-height: 500px;
+    background-color: #001D38;
+    max-width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+    .joe {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: #AAB1B7;
+            font-size: 15px;
+        }
+
+        .icons{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+
+            .icon {
+                border: 1px solid #AAB1B7;
+                color: #AAB1B7;
+                height: 35px;
+                width: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                transition: 400ms;
+                cursor: pointer;
+            }
+
+            .icon:hover {
+                background-color: rgb(251, 251, 255);
+                color: rgb(0, 0, 0);
+                border: 1px solid rgb(14, 14, 78);
+            }
+        }
+    }
+
+    .company {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .categories {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            p {
+                color: #AAB1B7;
+                font-size: 15px;
+                transition: 400ms;
+                cursor: pointer;
+            }
+
+            p:hover {
+                color: white;
+            }
+        }
+    }
+
+    .subscribe {
+        max-width: 400px;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .emailbox {
+            #emailbox {
+                height: 50px;
+                width: 370px;
+                padding: 0 20px;
+                font-size: 17px;
+                background-color: #001D38;
+                border: 1px solid gray;
+                border-radius: 5px;
+                color: white;
+            }
+        }
+
+        p {
+            color: #AAB1B7;
+            font-size: 15px;
+        }
+    }
+}
